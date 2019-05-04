@@ -25,7 +25,7 @@ class CityTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? CustomTableViewCell
-        cell?.cityLabel.text = "\(indexPath.row + 1). " + displayPlace[indexPath.row].name
+        cell?.cityLabel.text = "\t\t\t\(indexPath.row + 1). " + displayPlace[indexPath.row].name
         
         return cell!
     }

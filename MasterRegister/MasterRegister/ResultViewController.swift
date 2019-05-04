@@ -19,12 +19,33 @@ class ResultViewController: UIViewController {
     
     @IBOutlet weak var statusJobLabel: UILabel!
     
+    @IBOutlet weak var editButton: UIButton!
+    
+    var isShowRinghtButton: Bool = false
+    var window: UIWindow?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadDataFromPlist()
         // Do any additional setup after loading the view.
+        //editButton.isEnabled = isShowRinghtButton
     }
     
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        editButton.isSelected = isShowRinghtButton
+    }
+    
+
+@IBAction func editButtonAction(_ sender: UIBarButtonItem) {
+    let mainSB = UIStoryboard(name: "Main", bundle: nil)
+    let resutl = mainSB.instantiateViewController(withIdentifier: "start")         //khoi tao VC
+    let navigation = UINavigationController(rootViewController: resutl)
+    window = UIWindow(frame: UIScreen.main.bounds)
+    window?.rootViewController = navigation
+    window?.makeKeyAndVisible()                                                 //Tao khoa va hien thi
+}
 
     /*
     // MARK: - Navigation

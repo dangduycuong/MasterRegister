@@ -20,7 +20,6 @@
 		CE1519F6227076DF003D725C /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1519F4227076DF003D725C /* Cities.plist */; };
 		CE1519F7227076DF003D725C /* Districts.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE1519F5227076DF003D725C /* Districts.plist */; };
 		CE151A07227077FB003D725C /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A06227077FB003D725C /* PickerViewController.swift */; };
-		CE151A0922707836003D725C /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A0822707836003D725C /* SummaryViewController.swift */; };
 		CE151A0F227078D5003D725C /* GenderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A0B227078D5003D725C /* GenderTableViewController.swift */; };
 		CE151A10227078D5003D725C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A0C227078D5003D725C /* ViewController.swift */; };
 		CE151A11227078D5003D725C /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A0D227078D5003D725C /* GenderViewController.swift */; };
@@ -58,7 +57,6 @@
 		CE1519F4227076DF003D725C /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		CE1519F5227076DF003D725C /* Districts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Districts.plist; sourceTree = "<group>"; };
 		CE151A06227077FB003D725C /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
-		CE151A0822707836003D725C /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		CE151A0B227078D5003D725C /* GenderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderTableViewController.swift; sourceTree = "<group>"; };
 		CE151A0C227078D5003D725C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE151A0D227078D5003D725C /* GenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				CE151A0E227078D5003D725C /* CityTableViewController.swift */,
 				CE151A0B227078D5003D725C /* GenderTableViewController.swift */,
 				CE151A0D227078D5003D725C /* GenderViewController.swift */,
-				CE151A0822707836003D725C /* SummaryViewController.swift */,
 				CE151A0C227078D5003D725C /* ViewController.swift */,
 			);
 			name = Controller;
@@ -282,7 +279,6 @@
 				CE1519EE2270769C003D725C /* DataService.swift in Sources */,
 				CE151A12227078D5003D725C /* CityTableViewController.swift in Sources */,
 				CE1519F3227076D8003D725C /* UIView + Extention.swift in Sources */,
-				CE151A0922707836003D725C /* SummaryViewController.swift in Sources */,
 				CE151A19227078DD003D725C /* StatusTableViewController.swift in Sources */,
 				CE151A1A227078DD003D725C /* ResultViewController.swift in Sources */,
 			);

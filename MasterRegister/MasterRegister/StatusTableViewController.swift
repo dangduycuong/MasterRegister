@@ -38,7 +38,7 @@ class StatusTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomTableViewCell
         // Configure the cell...
-        cell.cityLabel.text = statusJobs[indexPath.row]
+        cell.cityLabel.text = "\t" + statusJobs[indexPath.row]
         return cell
     }
     

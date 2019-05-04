@@ -12,23 +12,23 @@ class CustomTableViewCell: UITableViewCell {
     
     @IBOutlet weak var cityLabel: UILabel!
     
-    @IBOutlet weak var view: UIView!
-    
-    @IBOutlet weak var leadingLabel: NSLayoutConstraint!
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-        leadingLabel.constant = view.bounds.width / 2.5
         
     }
+    
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         // Configure the view for the selected state
+            if selected {
+                cityLabel.backgroundColor = UIColor.cyan
+            } else {
+                cityLabel.backgroundColor = UIColor.groupTableViewBackground
+            }
     }
-    
+
     override func prepareForReuse() {
         cityLabel.text = ""
     }

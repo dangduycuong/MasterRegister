@@ -12,10 +12,23 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        //Check user default
+        if UserDefaults.standard.object(forKey: "city") != nil {
+            let mainSB = UIStoryboard(name: "Main", bundle: nil)
+            let result = mainSB.instantiateViewController(withIdentifier: "result") as? ResultViewController
+            result?.isShowRinghtButton = true
+            let navigation = UINavigationController(rootViewController: result!)
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.rootViewController = navigation
+            //Hien thi cua so va bien no thanh cua so chinh
+            window?.makeKeyAndVisible()
+        }
+        
         // Override point for customization after application launch.
+        print("didFinishLaunchingWithOptions")
         return true
     }
 
@@ -40,6 +53,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    
 
 
 }

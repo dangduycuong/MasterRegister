@@ -44,7 +44,7 @@ class ResultViewController: UIViewController {
     let navigation = UINavigationController(rootViewController: resutl)
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.rootViewController = navigation
-    window?.makeKeyAndVisible()                                                 //Tao khoa va hien thi
+    window?.makeKeyAndVisible() //Tao khoa va hien thi
 }
 
     /*

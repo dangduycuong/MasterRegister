@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenderViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class GenderViewController: BaseViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     @IBOutlet var arrayButtonGenders: [UIButton]!
     @IBOutlet weak var myPicker: UIPickerView!

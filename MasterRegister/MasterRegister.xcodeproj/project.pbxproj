@@ -27,6 +27,7 @@
 		CE151A18227078DD003D725C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A14227078DD003D725C /* CustomTableViewCell.swift */; };
 		CE151A19227078DD003D725C /* StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A15227078DD003D725C /* StatusTableViewController.swift */; };
 		CE151A1A227078DD003D725C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A16227078DD003D725C /* ResultViewController.swift */; };
+		CEDF1F022594647B008CA438 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F012594647B008CA438 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		CE151A14227078DD003D725C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE151A15227078DD003D725C /* StatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTableViewController.swift; sourceTree = "<group>"; };
 		CE151A16227078DD003D725C /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CEDF1F012594647B008CA438 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				CE151A0B227078D5003D725C /* GenderTableViewController.swift */,
 				CE151A0D227078D5003D725C /* GenderViewController.swift */,
 				CE151A0C227078D5003D725C /* ViewController.swift */,
+				CEDF1F012594647B008CA438 /* BaseViewController.swift */,
 			);
 			name = Controller;
 			path = MasterRegister;
@@ -272,6 +275,7 @@
 				CE151A18227078DD003D725C /* CustomTableViewCell.swift in Sources */,
 				CE1519EC2270769C003D725C /* City.swift in Sources */,
 				CE151A11227078D5003D725C /* GenderViewController.swift in Sources */,
+				CEDF1F022594647B008CA438 /* BaseViewController.swift in Sources */,
 				CE1519F2227076D8003D725C /* KGRadioButton.swift in Sources */,
 				CE1519ED2270769C003D725C /* District.swift in Sources */,
 				CE151A07227077FB003D725C /* PickerViewController.swift in Sources */,

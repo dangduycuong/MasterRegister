@@ -28,5 +28,11 @@ class ViewController: BaseViewController {
         self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
+    @IBAction func tapNext(_ sender: Any) {
+        title = ""
+        let vc = Storyboard.Main.cityViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 

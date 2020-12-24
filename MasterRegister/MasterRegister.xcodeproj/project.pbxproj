@@ -28,6 +28,13 @@
 		CE151A19227078DD003D725C /* StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A15227078DD003D725C /* StatusTableViewController.swift */; };
 		CE151A1A227078DD003D725C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151A16227078DD003D725C /* ResultViewController.swift */; };
 		CEDF1F022594647B008CA438 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F012594647B008CA438 /* BaseViewController.swift */; };
+		CEDF1F07259466ED008CA438 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F06259466ED008CA438 /* BaseTableViewCell.swift */; };
+		CEDF1F0A2594671C008CA438 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F092594671C008CA438 /* UIView.swift */; };
+		CEDF1F0D25946791008CA438 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F0B25946791008CA438 /* CityTableViewCell.swift */; };
+		CEDF1F0E25946791008CA438 /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDF1F0C25946791008CA438 /* CityTableViewCell.xib */; };
+		CEDF1F1025946868008CA438 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F0F25946868008CA438 /* CityViewController.swift */; };
+		CEDF1F1225946BB6008CA438 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F1125946BB6008CA438 /* Storyboard.swift */; };
+		CEDF1F1425946C49008CA438 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF1F1325946C49008CA438 /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,13 @@
 		CE151A15227078DD003D725C /* StatusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTableViewController.swift; sourceTree = "<group>"; };
 		CE151A16227078DD003D725C /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CEDF1F012594647B008CA438 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CEDF1F06259466ED008CA438 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CEDF1F092594671C008CA438 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CEDF1F0B25946791008CA438 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		CEDF1F0C25946791008CA438 /* CityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		CEDF1F0F25946868008CA438 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		CEDF1F1125946BB6008CA438 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		CEDF1F1325946C49008CA438 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +103,10 @@
 		CE1519BC22706EF0003D725C = {
 			isa = PBXGroup;
 			children = (
+				CEDF1F1125946BB6008CA438 /* Storyboard.swift */,
+				CEDF1F0825946712008CA438 /* Extension */,
+				CEDF1F05259466E1008CA438 /* Base */,
+				CEDF1F03259466B2008CA438 /* View */,
 				CE1519E822707682003D725C /* Model */,
 				CE1519EF227076BE003D725C /* Suport File */,
 				CE151A0A22707882003D725C /* Controller */,
@@ -154,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				CE151A06227077FB003D725C /* PickerViewController.swift */,
+				CEDF1F0F25946868008CA438 /* CityViewController.swift */,
 				CE151A14227078DD003D725C /* CustomTableViewCell.swift */,
 				CE151A16227078DD003D725C /* ResultViewController.swift */,
 				CE151A15227078DD003D725C /* StatusTableViewController.swift */,
@@ -165,6 +184,40 @@
 			);
 			name = Controller;
 			path = MasterRegister;
+			sourceTree = "<group>";
+		};
+		CEDF1F03259466B2008CA438 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF1F04259466BD008CA438 /* CityTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDF1F04259466BD008CA438 /* CityTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF1F0B25946791008CA438 /* CityTableViewCell.swift */,
+				CEDF1F0C25946791008CA438 /* CityTableViewCell.xib */,
+			);
+			path = CityTableViewCell;
+			sourceTree = "<group>";
+		};
+		CEDF1F05259466E1008CA438 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF1F06259466ED008CA438 /* BaseTableViewCell.swift */,
+				CEDF1F1325946C49008CA438 /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CEDF1F0825946712008CA438 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF1F092594671C008CA438 /* UIView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +305,7 @@
 				CE1519F7227076DF003D725C /* Districts.plist in Resources */,
 				CE1519D022706EF2003D725C /* Assets.xcassets in Resources */,
 				CE1519CE22706EF0003D725C /* Main.storyboard in Resources */,
+				CEDF1F0E25946791008CA438 /* CityTableViewCell.xib in Resources */,
 				CE1519F6227076DF003D725C /* Cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,20 +324,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDF1F0D25946791008CA438 /* CityTableViewCell.swift in Sources */,
+				CEDF1F07259466ED008CA438 /* BaseTableViewCell.swift in Sources */,
 				CE1519C922706EF0003D725C /* AppDelegate.swift in Sources */,
 				CE151A0F227078D5003D725C /* GenderTableViewController.swift in Sources */,
 				CE151A18227078DD003D725C /* CustomTableViewCell.swift in Sources */,
 				CE1519EC2270769C003D725C /* City.swift in Sources */,
 				CE151A11227078D5003D725C /* GenderViewController.swift in Sources */,
 				CEDF1F022594647B008CA438 /* BaseViewController.swift in Sources */,
+				CEDF1F1425946C49008CA438 /* BaseNavigationController.swift in Sources */,
 				CE1519F2227076D8003D725C /* KGRadioButton.swift in Sources */,
 				CE1519ED2270769C003D725C /* District.swift in Sources */,
 				CE151A07227077FB003D725C /* PickerViewController.swift in Sources */,
 				CE151A10227078D5003D725C /* ViewController.swift in Sources */,
 				CE1519EE2270769C003D725C /* DataService.swift in Sources */,
 				CE151A12227078D5003D725C /* CityTableViewController.swift in Sources */,
+				CEDF1F0A2594671C008CA438 /* UIView.swift in Sources */,
 				CE1519F3227076D8003D725C /* UIView + Extention.swift in Sources */,
+				CEDF1F1225946BB6008CA438 /* Storyboard.swift in Sources */,
 				CE151A19227078DD003D725C /* StatusTableViewController.swift in Sources */,
+				CEDF1F1025946868008CA438 /* CityViewController.swift in Sources */,
 				CE151A1A227078DD003D725C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

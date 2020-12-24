@@ -9,6 +9,7 @@
 import UIKit
 
 class BaseViewController: UIViewController {
+    var isLoading: Bool = false
     var spinner = UIActivityIndicatorView()
     
     func loadSpinnerView() {
@@ -32,6 +33,14 @@ class BaseViewController: UIViewController {
         spinner.stopAnimating()
         view.isUserInteractionEnabled = true
         view.alpha = 1
+    }
+    
+    func setShadowView(view: UIView) {
+        view.layer.cornerRadius = 16
+        view.layer.shadowColor = UIColor.black.cgColor
+        view.layer.shadowOpacity = 0.5
+        view.layer.shadowOffset = .zero
+        view.layer.shadowRadius = 10
     }
     
 }
